@@ -1,0 +1,23 @@
+{
+  "name": "atom-taito-cli",
+  "main": "./lib/atom-taito-cli",
+  "version": "0.0.0",
+  "description": "Taito-cli command palette for Atom editor",
+  "keywords": [
+    "atom",
+    "taito-cli",
+    "command",
+    "palette"
+  ],
+  "repository": "https://github.com/keskiju/atom-taito-cli",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.21.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-select-list": "^0.7.1",
+    "fuzzaldrin": "^2.1.0",
+    "fuzzaldrin-plus": "^0.6.0",
+    "underscore-plus": "^1.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  ".platform-darwin": {
+    "cmd-t": "atom-taito-cli:toggle"
+  },
+  ".platform-win32, .platform-linux": {
+    "ctrl-t": "atom-taito-cli:toggle"
+  }
+}
