@@ -14,6 +14,13 @@
   "engines": {
     "atom": ">=1.21.0 <2.0.0"
   },
+  "consumedServices": {
+    "platformioIDETerminal": {
+      "versions": {
+        "^1.1.0": "consumePlatformIOIDETerminal"
+      }
+    }
+  },
   "dependencies": {
     "atom-select-list": "^0.7.1",
     "fuzzaldrin": "^2.1.0",

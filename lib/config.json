@@ -1,0 +1,24 @@
+{
+  "terminal": {
+    "title": "Terminal",
+    "type": "string",
+    "enum": [ "iTerm (macOS)", "Terminal (macOS)", "platformio-ide-terminal" ],
+    "default": "iTerm (macOS)",
+    "order": 0
+  },
+  "commands": {
+    "title": "Additional commands",
+    "type": "array",
+    "default": [ "git pull --rebase", "git push" ],
+    "items": {
+      "type": "string"
+    },
+    "order": 1
+  },
+  "focus": {
+    "title": "Always focus terminal window",
+    "type": "boolean",
+    "default": false,
+    "order": 2
+  }
+}
