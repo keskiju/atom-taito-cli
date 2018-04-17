@@ -2,14 +2,14 @@
   "terminal": {
     "title": "Terminal",
     "type": "string",
-    "enum": [ "iTerm (macOS)", "Terminal (macOS)", "platformio-ide-terminal" ],
+    "enum": [ "iTerm (macOS)", "Terminal (macOS)", "platformio-ide-terminal (Atom)" ],
     "default": "iTerm (macOS)",
     "order": 0
   },
   "commands": {
     "title": "Additional commands",
     "type": "array",
-    "default": [ "git pull --rebase", "git push" ],
+    "default": [ "git pull", "git pull --rebase", "git push" ],
     "items": {
       "type": "string"
     },
