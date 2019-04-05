@@ -22,13 +22,13 @@
     }
   },
   "dependencies": {
-    "atom-select-list": "^0.7.1",
-    "fuzzaldrin": "^2.1.0",
-    "fuzzaldrin-plus": "^0.6.0",
-    "underscore-plus": "^1.0.0"
+    "atom-select-list": "~0.7.2",
+    "fuzzaldrin": "~2.1.0",
+    "fuzzaldrin-plus": "~0.6.0",
+    "underscore-plus": "~1.7.0"
   },
   "devDependencies": {
-    "eslint": "^4.16.0",
-    "prettier": "^1.11.1"
+    "eslint": "~5.16.0",
+    "prettier": "~1.16.4"
   }
 }

@@ -9,7 +9,8 @@
   "commands": {
     "title": "Additional commands",
     "type": "array",
-    "default": [ "git pull", "git pull --rebase", "git push" ],
+    "default": [
+    ],
     "items": {
       "type": "string"
     },
