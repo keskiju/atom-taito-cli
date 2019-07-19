@@ -1,13 +1,15 @@
 {
   "terminal": {
     "title": "Terminal",
+    "description": "Terminal that is used to execute taito commands. If you select an external terminal application, you have to give Atom editor rights to communicate with the external terminal. On macOS you can do this on System Preferences -> Security & Privacy -> Automation -> Atom.",
     "type": "string",
-    "enum": [ "iTerm (macOS)", "Terminal (macOS)", "platformio-ide-terminal (Atom)" ],
-    "default": "iTerm (macOS)",
+    "enum": [ "platformio-ide-terminal (Atom)", "iTerm (external, macOS)", "Terminal (external, macOS)" ],
+    "default": "platformio-ide-terminal (Atom)",
     "order": 0
   },
   "commands": {
     "title": "Additional commands",
+    "description": "Additional commands that you would like to execute with this plugin. If command requires user provided arguments, write them in UPPERCASE (e.g. mycommand SOURCE DEST)",
     "type": "array",
     "default": [
     ],
@@ -17,7 +19,8 @@
     "order": 1
   },
   "focus": {
-    "title": "Always focus terminal window",
+    "title": "Always focus terminal window on command execution",
+    "description": "This is turned off by default.",
     "type": "boolean",
     "default": false,
     "order": 2

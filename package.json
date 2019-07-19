@@ -2,7 +2,7 @@
   "name": "atom-taito-cli",
   "main": "./lib/atom-taito-cli",
   "version": "0.0.0",
-  "description": "Taito-cli command palette for Atom editor",
+  "description": "Taito CLI command palette for Atom editor",
   "keywords": [
     "atom",
     "taito-cli",
@@ -29,6 +29,6 @@
   },
   "devDependencies": {
     "eslint": "~5.16.0",
-    "prettier": "~1.16.4"
+    "prettier": "~1.18.2"
   }
 }
