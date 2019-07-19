@@ -1,7 +1,7 @@
 {
   "name": "atom-taito-cli",
   "main": "./lib/atom-taito-cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Taito CLI command palette for Atom editor",
   "keywords": [
     "atom",
